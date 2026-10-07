@@ -1,0 +1,52 @@
+ body{
+    background-color: beige;
+    font-family: 'Courier New', Courier, monospace;
+    margin:0;
+    padding: 20px;
+    
+   
+ }
+ 
+.libro{
+    text-align: center;
+    background-color: aquamarine;
+    padding: 20px;
+    box-sizing: border-box;
+   
+    gap:30px;
+    margin-bottom: 20px;
+}
+
+
+
+.pe{
+    text-align: center;
+
+    display: flex;
+    grid-template-columns: repeat(6, 1fr) ;
+     gap:30px;
+0    margin-bottom: 20px;
+}
+ 
+.pet2{
+    display: flex;
+    grid-template-columns: repeat(5fr, fr) ;
+    gap:30px;
+    margin-bottom: 20px;
+}
+
+.cont3{
+    display: flex;
+    grid-template-columns: repeat(4fr, 1fr) ;
+    gap:30px;
+    margin-bottom: 20px;
+}
+
+
+
+.disponible {
+    background-color: rgb(0, 255, 132);
+}
+ .Nodisponible {
+    background-color: rgb(197, 43, 43);
+}
